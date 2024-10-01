@@ -2,7 +2,7 @@ import { ItemProps } from "@/types/item";
 
 function Item({ name, isPacked }: ItemProps) {
   return (
-    <li className="item">{isPacked ? <del>{name}</del> : <p>{name}</p>}</li>
+    <li className="item">{isPacked ? <del>{name}</del> : <text>{name}</text>}</li>
   );
 }
 
