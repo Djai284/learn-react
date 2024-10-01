@@ -8,11 +8,12 @@ import Bio from "./qcomps/bios";
 import RecipeList from "./qcomps/recipes";
 import List from "./qcomps/list_keys_id";
 import PackingList from "./qcomps/props_item";
+import Form from "./qcomps/stuckForm";
 
 export default function Home() {
   return (
     <>
-      <Gallery />
+      <Form />
     </>
   );
 }
