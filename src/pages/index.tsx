@@ -9,11 +9,13 @@ import RecipeList from "./qcomps/recipes";
 import List from "./qcomps/list_keys_id";
 import PackingList from "./qcomps/props_item";
 import Form from "./qcomps/stuckForm";
+import FeedbackForm from './qcomps/thankYouCrash';
 
 export default function Home() {
   return (
     <>
-      <Form />
+      {/* <Form /> */}
+      <FeedbackForm />
     </>
   );
 }
