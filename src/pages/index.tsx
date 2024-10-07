@@ -10,12 +10,15 @@ import List from "./qcomps/list_keys_id";
 import PackingList from "./qcomps/props_item";
 import Form from "./qcomps/stuckForm";
 import FeedbackForm from './qcomps/thankYouCrash';
+import RequestTracker from './qcomps/shoppingCart';
+import Scoreboard from "./qcomps/updObjectsForm";
 
 export default function Home() {
   return (
     <>
       {/* <Form /> */}
-      <FeedbackForm />
+      {/* <RequestTracker /> */}
+      <Scoreboard />
     </>
   );
 }
