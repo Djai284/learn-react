@@ -13,13 +13,14 @@ import FeedbackForm from './qcomps/thankYouCrash';
 import RequestTracker from './qcomps/shoppingCart';
 import Scoreboard from "./qcomps/updObjectsForm";
 import List from "./qcomps/artistsRemoveArr";
+import BucketList from "./qcomps/arrObj";
 
 export default function Home() {
   return (
     <>
       {/* <Form /> */}
       {/* <RequestTracker /> */}
-      <List />
+      <BucketList />
     </>
   );
 }
